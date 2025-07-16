@@ -55,9 +55,13 @@ body {
   background-color: var(--bg-primary);
 }
 
+/* Code elements */
 code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-        monospace;
+  font-family: 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', monospace;
+  background-color: var(--bg-light);
+  padding: 0.125rem 0.25rem;
+  border-radius: 2px;
+  font-size: 0.875em;
 }
 
 
